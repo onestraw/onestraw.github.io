@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Projects & Skills</title>
+	<meta name="author" content="Geeksword" />
+	<meta name="description" content="project experiences and programming skills" />
+	<meta name="keywords"  content="linux, kernel, network, tcp/ip, c/c++, python" />
+	<meta name="Resource-type" content="Document" />
+
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.css" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="examples.css" />
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.6.6/jquery.fullPage.min.js"></script>
+	<script type="text/javascript" src="examples.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				sectionsColor: ['#1bbc9b', '#4BBFC3', '#7BAABE', '#F2AE72'],
+				anchors: ['firstPage', 'secondPage', '3rdPage', '4thPage'],
+				menu: '#menu',
+				loopTop: true,
+				loopBottom: true
+			});
+		});
+	</script>
+
+</head>
+<body>
+
+
+<ul id="menu">
+	<li data-menuanchor="home"><a href="/">返回博客</a></li>
+	<li data-menuanchor="firstPage" class="active"><a href="#firstPage">博主篇</a></li>
+	<li data-menuanchor="secondPage"><a href="#secondPage">内核篇</a></li>
+	<li data-menuanchor="3rdPage"><a href="#3rdPage">网络篇</a></li>
+	<li data-menuanchor="4thPage"><a href="#4thPage">XX篇</a></li>
+</ul>
+
+<div id="fullpage">
+	<div class="section " id="section0">
+		<div align="center" style="font-size: 16px">
+		<table border="0">
+		  <tr><td>中科院计算所16届硕士生</td></tr>
+		  <tr><td>吉林大学计算机系13届本科生</td></tr>
+		  <tr><td>VMware 实习生</td></tr>
+		  <tr><td>Intel 实习生</td></tr>
+		  <tr><td>一根稻草博主</td></tr>
+		  <tr><td>水木社区KernelTech版主</td></tr>
+		</table>
+		</div>
+	</div>
+	<div class="section" id="section1">
+		<div class="intro">
+		<div align="center" style="font-size: 16px">
+		<table border="0">
+		  <tr><td>研究过Linux安全模块LSM</td></tr>
+		  <tr><td>研究过系统调用劫持技术</td></tr>
+		  <tr><td>研究过Netfilter框架及hook技术</td></tr>
+		  <tr><td>研究过Netlink，分析了ip命令源码的netlink部分</td></tr>
+		</table>
+		</div>
+		</div>
+	</div>
+	<div class="section" id="section2">
+		<div class="intro">
+		<div align="center" style="font-size: 16px">
+		<table border="0">
+		  <tr><td>精通TCP/IP协议栈，验证过TCP报文重组，编写过packet嗅探器</td></tr>
+		  <tr><td>熟悉IPsec，掌握IPsec VPN搭建方法</td></tr>
+		  <tr><td>熟悉ARP、DNS和HTTP协议，模拟过ARP欺骗、DNS放大攻击和HTTP攻击</td></tr>
+		  <tr><td>分析过snort系统的arp欺骗检测和port扫描检测插件</td></tr>
+		  <tr><td>做过异常流量检测引擎，各种DDoS检测、端口扫描</td></tr>
+		  <tr><td>玩过阿里云ECS，遭竞争对手DDoS过，提出一种防御方案</td></tr>
+		</table>
+		</div>
+		</div>
+	</div>
+	
+	<div class="section" id="section3">
+		<div class="intro">
+		<div align="center" style="font-size: 16px">
+		<table border="0">
+		  <tr><td>微信众筹系统</td></tr>
+		  <tr><td>Android九连环小游戏</td></tr>
+		  <tr><td>PyQt连连看小游戏</td></tr>
+		  <tr><td>PyQt五子棋小游戏</td></tr>
+		  <tr><td>PyQt聊天软件</td></tr>
+		  <tr><td>基于Linux GTK的嗅探器</td></tr>
+		  <tr><td>基于Linux GTK的网络故障检测程序</td></tr>
+		</table>
+		</div
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
