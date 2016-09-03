@@ -3,6 +3,7 @@ layout: single
 author_profile: true
 comments: true
 title: Find one path between two functioins
+excerpt: "源码阅读辅助小工具"
 tagline: 
 category: Python
 tags : [Python, Linux]
