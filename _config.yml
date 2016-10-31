@@ -11,7 +11,7 @@ title                    : "一根稻草"
 title_separator          : "-"
 name                     : "geeksword"
 description              : "关注Linux, 网络, 安全"
-url                      : "http://onestraw.net"
+url                      : "http://onestraw.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
