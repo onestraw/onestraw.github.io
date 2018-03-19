@@ -63,7 +63,7 @@ google_ad_slot           :
 author:
   name             : "geeksword"
   avatar           : "bio-photo.jpg"
-  bio              : "ICT 2016届硕士. JLU 2013届本科." 
+  bio              : "Software Engineer"
   location         : "Beijing"
   email            : 
   uri              :
@@ -81,7 +81,7 @@ author:
   linkedin         : "0xhexw"
   pinterest        : "geeksword"
   soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
+  stackoverflow    : "3422711/larry-he"
   steam            :
   tumblr           :
   twitter          : "BillHeCn"
