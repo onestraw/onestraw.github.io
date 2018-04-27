@@ -35,7 +35,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : "BillHeCn"
+  username               :
 facebook:
   username               :
   app_id                 :
@@ -78,13 +78,13 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "0xhexw"
+  linkedin         :
   pinterest        : "geeksword"
   soundcloud       :
   stackoverflow    : "3422711/larry-he"
   steam            :
   tumblr           :
-  twitter          : "BillHeCn"
+  twitter          :
   vine             :
   weibo            : "geeksword"
   xing             :
